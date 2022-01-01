@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Shivani Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&family=Lora:ital@1&family=Qahiri&family=Zen+Antique+Soft&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body{
+        color: rgb(202, 198, 200);
+         margin: 0px;
+        padding: 0px; 
+        background-image: url("img/machines.jpg");
+        font-family: 'Zen Antique Soft', serif;
+        background-size:cover;
+        
+    }
+
+        .left{
+            position: absolute;
+            left: 60px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid red; */
+        }
+        .left img{
+            width: 134px;
+        filter: invert(100%);
+            
+        }       `
+        .left div{
+            text-align: center;
+        }
+        
+        
+        .mid{
+            color:rgb(14, 11, 13);
+            display: block;
+            width: 36%;
+            margin: 20px auto;
+            /* border: 2px solid rgb(201, 199, 218); */
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 2px solid rgb(188, 190, 25); */
+
+        }
+        .navbar{
+            display: inline-block;
+
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 18px;
+            
+        }
+        .navbar li a{
+            display: inline-block;
+            text-decoration: none;
+            padding: 34px;
+            color: whitesmoke;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color: rgb(155, 152, 155);
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: black
+            ;
+            color: rgb(223, 222, 222);
+            padding: 16px 20px;
+            border: 2px solid green;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: hotpink;
+        }
+        .container{
+            /* border: 2px solid rgb(19, 138, 19); */
+            margin: 88px 88px;
+            padding: 25px 46px;
+            width: 33%;
+            border-radius: 54px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 508px;
+            padding: 1x;
+            border: 2px solid red;
+
+            font-size:25PX ;
+            margin: 11px auto;
+            border-radius: 8px;
+            font-family: 'Zen Antique Soft', serif;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 76%;
+            margin: 20px auto;
+            
+        }
+
+</style>
+<body>
+<header class="header">
+    <!-- Left box for logo -->
+    <div class="left">
+        <img src="img/newpic.jpg" alt="">
+        <div>Shivani Fitness</div>
+        
+
+        </div>
+    <!-- Mid box for navbar -->
+    <div class="mid">
+        <ul class="navbar">
+            <li><a href="#" class="Active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li></ul>
+    </div>
+    <!-- Right box for buttons -->
+    <div class="right">
+        <button class="btn">Call Us</button>
+        <button class="btn">Email Us</button>
+    </div>
+</header>
+<div class="container">
+    <h1>Join the best Gym of delhi Now</h1>
+    <form action="noaction.php">
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Name">
+        
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your age">
+        
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter your Gender">
+        
+    </div>
+    <div class="form-group">
+        <input type="text" name="" placeholder="Enter Your Locality">
+
+        
+    
+        
+    </div>
+    <button class="btn">Submit</button>
+</form>
+</div>
+    
+</body>
+</html>
